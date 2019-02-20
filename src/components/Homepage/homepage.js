@@ -66,7 +66,8 @@ export default class homepage extends Component {
 		super(props);
 		this.state = {
 			isAboutOpen: false,
-			aboutText: 'About'
+			aboutText: 'About',
+			index: 0
 		};
 		this.onAboutClicked = this.onAboutClicked.bind(this);
 	}
