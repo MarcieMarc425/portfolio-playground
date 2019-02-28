@@ -596,7 +596,7 @@ export default class homepage extends Component {
 						fadeOutBot={'Proj3FadeOutToBot 1s ease-in-out forwards'}
 						fadeOutTop={'Proj3FadeOutToTop 1s ease-in-out forwards'}
 						title={'Tencent'}
-						subtitle={'HELPING STUDENTS DISCOVER TALENTS'}
+						subtitle={''}
 					/>
 					<Project
 						prev={this.state.prev.isForth}
@@ -620,7 +620,9 @@ export default class homepage extends Component {
 						fadeOutBot={'Proj5FadeOutToBot 1s ease-in-out forwards'}
 						fadeOutTop={'Proj5FadeOutToTop 1s ease-in-out forwards'}
 						title={'Speed Date Match Maker'}
-						subtitle={'HELPING STUDENTS DISCOVER TALENTS'}
+						subtitle={
+							'OPTIMIZING COMPATABILITY THROUGH MACHINE LEARNING'
+						}
 					/>
 				</div>
 			</div>
