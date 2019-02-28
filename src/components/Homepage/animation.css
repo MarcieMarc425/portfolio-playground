@@ -1,224 +1,260 @@
 @keyframes videoFadeIn {
-	0% {
-		transform: scale(0.5) translateY(-150vh);
-	}
+    0% {
+        transform: scale(0.5) translateY(-150vh);
+    }
 
-	50% {
-		transform: scale(0.5) translateY(0vh);
-	}
+    50% {
+        transform: scale(0.5) translateY(0vh);
+    }
 
-	100% {
-		transform: scale(1) translateY(0vh);
-	}
+    100% {
+        transform: scale(1) translateY(0vh);
+    }
 }
 
 @keyframes videoFadeOut {
-	50% {
-		transform: scale(0.5);
-	}
+    50% {
+        transform: scale(0.5);
+    }
 
-	100% {
-		transform: scale(0.5) translateY(-150vh);
-		visibility: hidden;
-	}
+    100% {
+        transform: scale(0.5) translateY(-150vh);
+        visibility: hidden;
+    }
 }
 
 @keyframes Proj1FadeInFromBot {
-	50% {
-		transform: translateY(0vh);
-	}
+    50% {
+        transform: translateY(0vh);
+    }
 
-	100% {
-		transform: translateY(-75vh);
-	}
+    100% {
+        transform: translateY(-75vh);
+    }
 }
 
 @keyframes Proj1FadeInFromTop {
-	0% {
-		transform: translateY(-150vh);
-	}
+    0% {
+        transform: translateY(-150vh);
+    }
 
-	100% {
-		transform: translateY(-75vh);
-	}
+    100% {
+        transform: translateY(-75vh);
+    }
 }
 
 @keyframes Proj1FadeOutToBot {
-	0% {
-		transform: translateY(-75vh);
-	}
+    0% {
+        transform: translateY(-75vh);
+    }
 
-	50% {
-		transform: translateY(0vh);
-	}
+    50% {
+        transform: translateY(0vh);
+    }
 }
 
 @keyframes Proj1FadeOutToTop {
-	0% {
-		transform: translateY(-75vh);
-	}
+    0% {
+        transform: translateY(-75vh);
+    }
 
-	100% {
-		transform: translateY(-150vh);
-	}
+    100% {
+        transform: translateY(-150vh);
+    }
 }
 
 @keyframes Proj2FadeInFromBot {
-	0% {
-		transform: translateY(-50vh);
-	}
+    0% {
+        transform: translateY(-50vh);
+    }
 
-	100% {
-		transform: translateY(-125vh);
-	}
+    100% {
+        transform: translateY(-125vh);
+    }
 }
 
 @keyframes Proj2FadeInFromTop {
-	0% {
-		transform: translateY(-200vh);
-	}
+    0% {
+        transform: translateY(-200vh);
+    }
 
-	100% {
-		transform: translateY(-125vh);
-	}
+    100% {
+        transform: translateY(-125vh);
+    }
 }
 
 @keyframes Proj2FadeOutToBot {
-	0% {
-		transform: translateY(-125vh);
-	}
+    0% {
+        transform: translateY(-125vh);
+    }
 
-	100% {
-		transform: translateY(-50vh);
-	}
+    100% {
+        transform: translateY(-50vh);
+    }
 }
 
 @keyframes Proj2FadeOutToTop {
-	0% {
-		transform: translateY(-125vh);
-	}
+    0% {
+        transform: translateY(-125vh);
+    }
 
-	100% {
-		transform: translateY(-200vh);
-	}
+    100% {
+        transform: translateY(-200vh);
+    }
 }
 
 @keyframes Proj3FadeInFromBot {
-	0% {
-		transform: translateY(-100vh);
-	}
+    0% {
+        transform: translateY(-100vh);
+    }
 
-	100% {
-		transform: translateY(-175vh);
-	}
+    100% {
+        transform: translateY(-175vh);
+    }
 }
 
 @keyframes Proj3FadeInFromTop {
-	0% {
-		transform: translateY(-250vh);
-	}
+    0% {
+        transform: translateY(-250vh);
+    }
 
-	100% {
-		transform: translateY(-175vh);
-	}
+    100% {
+        transform: translateY(-175vh);
+    }
 }
 
 @keyframes Proj3FadeOutToBot {
-	0% {
-		transform: translateY(-175vh);
-	}
+    0% {
+        transform: translateY(-175vh);
+    }
 
-	100% {
-		transform: translateY(-100vh);
-	}
+    100% {
+        transform: translateY(-100vh);
+    }
 }
 
 @keyframes Proj3FadeOutToTop {
-	0% {
-		transform: translateY(-175vh);
-	}
+    0% {
+        transform: translateY(-175vh);
+    }
 
-	100% {
-		transform: translateY(-250vh);
-	}
+    100% {
+        transform: translateY(-250vh);
+    }
 }
 
 @keyframes Proj4FadeInFromBot {
-	0% {
-		transform: translateY(-150vh);
-	}
+    0% {
+        transform: translateY(-150vh);
+    }
 
-	100% {
-		transform: translateY(-225vh);
-	}
+    100% {
+        transform: translateY(-225vh);
+    }
 }
 
 @keyframes Proj4FadeInFromTop {
-	0% {
-		transform: translateY(-300vh);
-	}
+    0% {
+        transform: translateY(-300vh);
+    }
 
-	100% {
-		transform: translateY(-225vh);
-	}
+    100% {
+        transform: translateY(-225vh);
+    }
 }
 
 @keyframes Proj4FadeOutToBot {
-	0% {
-		transform: translateY(-225vh);
-	}
+    0% {
+        transform: translateY(-225vh);
+    }
 
-	100% {
-		transform: translateY(-150vh);
-	}
+    100% {
+        transform: translateY(-150vh);
+    }
 }
 
 @keyframes Proj4FadeOutToTop {
-	0% {
-		transform: translateY(-225vh);
-	}
+    0% {
+        transform: translateY(-225vh);
+    }
 
-	100% {
-		transform: translateY(-300vh);
-	}
+    100% {
+        transform: translateY(-300vh);
+    }
 }
 
 @keyframes Proj5FadeInFromBot {
-	0% {
-		transform: translateY(-200vh);
-	}
+    0% {
+        transform: translateY(-200vh);
+    }
 
-	100% {
-		transform: translateY(-275vh);
-	}
+    100% {
+        transform: translateY(-275vh);
+    }
 }
 
 @keyframes Proj5FadeInFromTop {
-	0% {
-		transform: translateY(-350vh);
-	}
+    0% {
+        transform: translateY(-350vh);
+    }
 
-	100% {
-		transform: translateY(-275vh);
-	}
+    100% {
+        transform: translateY(-275vh);
+    }
 }
 
 @keyframes Proj5FadeOutToBot {
-	0% {
-		transform: translateY(-275vh);
-	}
+    0% {
+        transform: translateY(-275vh);
+    }
 
-	100% {
-		transform: translateY(-200vh);
-	}
+    100% {
+        transform: translateY(-200vh);
+    }
 }
 
 @keyframes Proj5FadeOutToTop {
-	0% {
-		transform: translateY(-275vh);
-	}
+    0% {
+        transform: translateY(-275vh);
+    }
 
-	100% {
-		transform: translateY(-350vh);
-	}
+    100% {
+        transform: translateY(-350vh);
+    }
+}
+
+@keyframes menuFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-40%);
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes menuFadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(-40%);
+        opacity: 0;
+    }
 }
