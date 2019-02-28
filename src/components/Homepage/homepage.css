@@ -1,223 +1,195 @@
 .hero {
-    overflow: hidden;
-    height: 100vh;
-    background: #222;
-    position: relative;
+	overflow: hidden;
+	height: 100vh;
+	background: #222;
+	position: relative;
 }
 
 video {
-    position: absolute;
+	position: absolute;
 
-    /* Vertical and Horizontal center*/
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	/* Vertical and Horizontal center*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .heroText {
-    margin-top: 40vh;
-    text-align: center;
-    width: auto;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: 'Roboto Slab', serif;
+	margin-top: 40vh;
+	text-align: center;
+	width: auto;
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .heroText2 {
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
 
 .about {
-    color: #c9c9c9;
-    font-size: 14px;
-    font-family: 'Montserrat', san-serif;
-    font-weight: 400;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    margin-top: -9vh;
-    margin-left: 3vw;
+	color: #c9c9c9;
+	font-size: 14px;
+	font-family: 'Montserrat', san-serif;
+	font-weight: 400;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	margin-top: -9vh;
+	margin-left: 3vw;
 }
 
 .about:hover {
-    color: #fff;
-    cursor: pointer;
+	color: #fff;
+	cursor: pointer;
 }
 
 .arrow {
-    margin-top: 13.5%;
-    cursor: pointer;
-    text-align: center;
+	margin-top: 13.5%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.project {
+	height: 50vh;
+	width: 50vw;
+	background-color: #2a638c;
+	margin-left: 25vw;
 }
 
 .projectTitle {
-    padding-top: 20vh;
-    margin-left: -5vw;
-    background-color: rgb(0, 0, 0, 0);
-    font-family: 'Roboto Slab', serif;
-    color: #fff;
-    font-size: 50px;
+	padding-top: 20vh;
+	margin-left: -5vw;
+	background-color: rgb(0, 0, 0, 0);
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	font-size: 50px;
 }
 
 .projectSubTitle {
-    background-color: rgb(0, 0, 0, 0);
-    margin-left: -5vw;
-    margin-top: 9px;
-    font-size: 9px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-
-@keyframes exFadeIn {
-    50% {
-        transform: translateY(0vh);
-    }
-
-    100% {
-        transform: translateY(-75vh);
-    }
-}
-
-@keyframes videoFadeIn {
-    0% {
-        transform: scale(0.5) translateY(-150vh);
-    }
-
-    50% {
-        transform: scale(0.5) translateY(0vh);
-    }
-
-    100% {
-        transform: scale(1) translateY(0vh);
-    }
-}
-
-@keyframes videoFadeOut {
-    50% {
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(0.5) translateY(-150vh);
-        visibility: hidden;
-    }
+	background-color: rgb(0, 0, 0, 0);
+	margin-left: -5vw;
+	margin-top: 9px;
+	font-size: 10px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
 @keyframes fadeIn {
-    0% {
-        transform: translateY(-30%);
-        opacity: 0;
-    }
+	0% {
+		transform: translateY(-30%);
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 1;
-    }
+	80% {
+		opacity: 1;
+	}
 
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	100% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }
 
 @keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 1;
+	}
 
-    50% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
+	50% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
 
-    90% {
-        opacity: 0;
-    }
+	90% {
+		opacity: 0;
+	}
 
-    100% {
-        transform: translateY(-30%);
-        opacity: 0;
-        visibility: hidden;
-    }
+	100% {
+		transform: translateY(-30%);
+		opacity: 0;
+		visibility: hidden;
+	}
 }
 
 @keyframes fadeIn2 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-        transform: translateY(-30%);
-    }
+	40% {
+		opacity: 0;
+		transform: translateY(-30%);
+	}
 
-    90% {
-        opacity: 1;
-    }
+	90% {
+		opacity: 1;
+	}
 
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	100% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }
 
 @keyframes fadeOut2 {
-    0% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 1;
+	}
 
-    40% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
+	40% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
 
-    90% {
-        opacity: 0;
-    }
+	90% {
+		opacity: 0;
+	}
 
-    100% {
-        transform: translateY(-30%);
-        opacity: 0;
-        visibility: hidden;
-    }
+	100% {
+		transform: translateY(-30%);
+		opacity: 0;
+		visibility: hidden;
+	}
 }
 
 @keyframes fadeIn3 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    50% {
-        opacity: 0;
-        transform: translateY(-30%);
-    }
+	50% {
+		opacity: 0;
+		transform: translateY(-30%);
+	}
 
-    90% {
-        opacity: 1;
-    }
+	90% {
+		opacity: 1;
+	}
 
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	100% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }
 
 @keyframes fadeOut3 {
-    0% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	0% {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    100% {
-        transform: translateY(-30%);
-        opacity: 0;
-        visibility: hidden;
-    }
+	100% {
+		transform: translateY(-30%);
+		opacity: 0;
+		visibility: hidden;
+	}
 }
