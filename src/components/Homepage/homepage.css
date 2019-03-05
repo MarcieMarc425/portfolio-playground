@@ -1,101 +1,101 @@
 .hero {
-    overflow: hidden;
-    height: 100vh;
-    background: #222;
-    position: relative;
+	overflow: hidden;
+	height: 100vh;
+	background: #222;
+	position: relative;
 }
 
 video {
-    position: absolute;
+	position: absolute;
 
-    /* Vertical and Horizontal center*/
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	/* Vertical and Horizontal center*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .headerNav {
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
-    width: auto;
-    margin-top: 6vh;
-    color: rgb(136, 136, 136);
-    font-size: 17.5px;
-    font-family: 'Roboto Slab', serif;
+	background-color: rgba(255, 255, 255, 0);
+	text-align: center;
+	width: auto;
+	margin-top: 6vh;
+	color: rgb(136, 136, 136);
+	font-size: 17.5px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .headerNav:hover {
-    color: #fff;
-    cursor: pointer;
+	color: #fff;
+	cursor: pointer;
 }
 
 .heroText {
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
-    width: auto;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: 'Roboto Slab', serif;
+	background-color: rgba(255, 255, 255, 0);
+	text-align: center;
+	margin-top: 14%;
+	width: auto;
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .heroText2 {
-    background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
 
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
 
 .about {
-    background-color: rgba(255, 255, 255, 0);
-
-    color: #c9c9c9;
-    font-size: 14px;
-    font-family: 'Montserrat', san-serif;
-    font-weight: 400;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    margin-top: -9vh;
-    margin-left: 3vw;
+	background-color: rgba(255, 255, 255, 0);
+	color: #c9c9c9;
+	font-size: 14px;
+	font-family: 'Montserrat', san-serif;
+	font-weight: 400;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	margin-top: -9vh;
+	margin-left: 3vw;
 }
 
 .about:hover {
-    color: #fff;
-    cursor: pointer;
+	color: #fff;
+	cursor: pointer;
 }
 
 .arrow {
-    background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
 
-    margin-top: 13.5%;
-    cursor: pointer;
-    text-align: center;
+	margin-top: 13.5%;
+	cursor: pointer;
+	text-align: center;
 }
 
 .project {
-    height: 50vh;
-    width: 48vw;
-    background-color: #2a638c;
-    margin-left: 26vw;
+	height: 50vh;
+	width: 48vw;
+	background-color: #2a638c;
+	margin-left: 26vw;
 }
 
 .projectTitle {
-    padding-top: 20vh;
-    margin-left: -5vw;
-    background-color: rgb(0, 0, 0, 0);
-    font-family: 'Roboto Slab', serif;
-    color: #fff;
-    font-size: 50px;
+	padding-top: 20vh;
+	margin-left: -5vw;
+	background-color: rgb(0, 0, 0, 0);
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	font-size: 50px;
 }
 
 .projectSubTitle {
-    background-color: rgb(0, 0, 0, 0);
-    margin-left: -5vw;
-    margin-top: 9px;
-    font-size: 10px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+	background-color: rgb(0, 0, 0, 0);
+	margin-left: -5vw;
+	margin-top: 9px;
+	font-size: 10px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
